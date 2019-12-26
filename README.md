@@ -1,28 +1,26 @@
-<<<<<<< HEAD
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Art Gallery
 
-Things you may want to cover:
+An art gallery app where the user can view many Artists And Thier Artworks,The admin can edit,delete and add an artist or an an artwork
 
-* Ruby version
+# Used Environments
 
-* System dependencies
+* Ruby
 
-* Configuration
+* css
 
-* Database creation
+* HTML
 
-* Database initialization
+# Development process:
 
-* How to run the test suite
+Started by working on the CURD operations for the admin and creating the views for each model. Then, adding the devise user.Finally, the styling.
 
-* Services (job queues, cache servers, search engines, etc.)
+# Challenges:
+CURD operations and heroku deployement.
 
-* Deployment instructions
+# Future plans:
+adding more functionalities to the website and work on the styling.
 
-* ...
 =======
-# art_gallery
->>>>>>> 68b4ca7b8056641504b210b4b1fc7226da3c0857
+# link of the app
+https://github.com/fatmake/art_gallery
