@@ -30,4 +30,6 @@ Rails.application.routes.draw do
 
   patch "artworks/:id/update", to: "artworks#update"
 
+  delete "artworks/:id", to: "artworks#destroy"
+
 end

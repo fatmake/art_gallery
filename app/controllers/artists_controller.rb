@@ -21,7 +21,8 @@ class ArtistsController < ApplicationController
     end
 
     def create
-        @artist.user_id = current_user.id
+        # @artist.user_id = current_user.id
+        @artist = Artist.new(params.require(:artist).permit(:name, :age, :style, :img))
         Artist.create(params.require(:artist).permit(:name, :age, :style, :img))
         redirect_to artists_path #artist path = index
     end
