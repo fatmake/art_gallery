@@ -58,3 +58,7 @@ gem 'bootstrap', '~> 4.4.1'
 gem 'devise-bootstrap-views', '~> 1.0'
 gem 'devise'
 gem 'jquery-rails'
+
+group :production do
+  gem 'pg'
+end
